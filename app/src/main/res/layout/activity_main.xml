@@ -1,0 +1,42 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.mirkancaliskan.valentinesdaycard.MainActivity">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    app:srcCompat="@drawable/androidvalentines" />
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:fontFamily="sans-serif-light"
+    android:textColor="@android:color/white"
+    android:text="Text to your lover"
+    android:textSize="24sp"
+    android:padding="16dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:id="@+id/alttext"
+    android:textSize="24sp"
+    android:fontFamily="sans-serif-light"
+    android:textColor="@android:color/white"
+    android:text="More text. (i. e. from Mirkan!)"
+    android:padding="16dp" />
+
+
+</RelativeLayout>
